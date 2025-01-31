@@ -20,5 +20,5 @@ CREATE TABLE IF NOT EXISTS slack_messages (
 conn.commit()
 conn.close()
 
-print("Database and 'messages' table created successfully.")
+print("Database and 'slack_messages' table created successfully.")
 
