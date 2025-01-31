@@ -11,7 +11,7 @@ My understanding of the requirements are bulleted below, subullets highlight lib
     3) Define a data warehouseing solution (ie. SQL, noSQL, Graph, ect.)\
         - pSQL\
     4) Create an open endpoint API\
-        - sqlalchemy\
+        - sqlalchemy
 
 These requirements left a fair amount of room for interpretation. Considering during the interview
 there were live demos of AI Slack based tools, I decided to go ahead and create one myself with
@@ -20,7 +20,7 @@ a AI data pipeline with integration to a slack channel. Text inputs relating to 
 descriptions can be input to a thread and the bot will run this text against a pretrained model then
 return a categorical output. For example, if a user types something along the lines of 'the pirate
 ship sailed across the seven seas in search of treasure' the app will return 'Adventure'. Please
-see the prerecorded video demo for a more tangible example.
+see the file 'Slack_Thread.png'  for a visual example.
 
 Creation of this bot can be broken down into a few different steps. First, model creation. The file
 'TextCategorization.py' leverages libraries 'NLTK' and 'sklearn' (very popular ML/AI libaries) for
