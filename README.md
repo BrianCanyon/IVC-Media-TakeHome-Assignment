@@ -1,17 +1,17 @@
 README
 
 This project is meant to capture a take home assignment from IVC media following an interview on Jan 29.
-My understanding of the requirements are bulleted below, subullets highlight libraries used:
-    1) Create a categorization algorithm for text based data
-        - NLTK
-        - sklearn
-    2) Create an ETL pipeline that includes event triggers
-        - Requests
-        - Flask
-    3) Define a data warehouseing solution (ie. SQL, noSQL, Graph, ect.)
-        - pSQL
-    4) Create an open endpoint API
-        - sqlalchemy
+My understanding of the requirements are bulleted below, subullets highlight libraries used:\
+    1) Create a categorization algorithm for text based data\
+        - NLTK\
+        - sklearn\
+    2) Create an ETL pipeline that includes event triggers\
+        - Requests\
+        - Flask\
+    3) Define a data warehouseing solution (ie. SQL, noSQL, Graph, ect.)\
+        - pSQL\
+    4) Create an open endpoint API\
+        - sqlalchemy\
 
 These requirements left a fair amount of room for interpretation. Considering during the interview
 there were live demos of AI Slack based tools, I decided to go ahead and create one myself with
