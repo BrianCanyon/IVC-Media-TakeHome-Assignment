@@ -18,7 +18,7 @@ there were live demos of AI Slack based tools, I decided to go ahead and create 
 intention of targeting all four of the requirements above in a single project. This project contains
 AI data pipeline with integration to a slack channel. Text inputs relating to movie reviews and/or
 descriptions can be input to a thread and the bot will run this text against a pretrained model then
-return a categorical output. For example, if a user types something along the lines of 'the pirate
+return a categorical genre output. For example, if a user types something along the lines of 'the pirate
 ship sailed across the seven seas in search of treasure' the app will return 'Adventure'. Please
 see the file 'Slack_Thread.png'  for a visual example.
 
